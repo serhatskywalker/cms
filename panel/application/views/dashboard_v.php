@@ -33,7 +33,7 @@
 <!--========== END app main -->
 
 <!-- SIDE PANEL -->
-<?php $this->load->view("includes/right-sidebar"); ?>
+ 
 <!-- /#side-panel -->
 
 <?php $this->load->view("includes/include_script"); ?>
