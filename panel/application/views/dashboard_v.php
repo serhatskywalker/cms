@@ -60,7 +60,7 @@
 							<div class="media">
 								<div class="media-left">
 									<div class="avatar avatar-xs avatar-circle">
-										<img src="../assets/images/221.jpg" alt="">
+											<img src=" <?php echo base_url("assets"); ?>/assets/images/221.jpg" alt="">
 										<i class="status status-online"></i>
 									</div>
 								</div>
@@ -75,7 +75,7 @@
 							<div class="media">
 								<div class="media-left">
 									<div class="avatar avatar-xs avatar-circle">
-										<img src="../assets/images/205.jpg" alt="">
+										<img src=" <?php echo base_url("assets"); ?>/assets/images/205.jpg" alt="">
 										<i class="status status-offline"></i>
 									</div>
 								</div>
@@ -90,7 +90,7 @@
 							<div class="media">
 								<div class="media-left">
 									<div class="avatar avatar-xs avatar-circle">
-										<img src="../assets/images/207.jpg" alt="">
+										<img src=" <?php echo base_url("assets"); ?>/assets/images/207.jpg" alt="">
 										<i class="status status-away"></i>
 									</div>
 								</div>
@@ -105,7 +105,7 @@
 							<div class="media">
 								<div class="media-left">
 									<div class="avatar avatar-xs avatar-circle">
-										<img src="../assets/images/211.jpg" alt="">
+										<img src=" <?php echo base_url("assets"); ?>/assets/images/211.jpg" alt="">
 										<i class="status status-away"></i>
 									</div>
 								</div>
@@ -143,7 +143,7 @@
 		<div class="media">
 			<div class="media-left">
 				<div class="avatar avatar-md avatar-circle">
-					<a href="javascript:void(0)"><img class="img-responsive" src="../assets/images/221.jpg" alt="avatar"/></a>
+					<a href="javascript:void(0)"><img class="img-responsive" src=" <?php echo base_url("assets"); ?>/assets/images/221.jpg" alt="avatar"/></a>
 				</div><!-- .avatar -->
 			</div>
 			<div class="media-body">
@@ -736,7 +736,7 @@
 									<div class="media">
 										<div class="media-left">
 											<div class="avatar avatar-sm avatar-circle">
-												<img src="../assets/images/217.jpg" alt="">
+												<img src=" <?php echo base_url("assets"); ?>/assets/images/217.jpg" alt="">
 											</div>
 										</div>
 										<div class="media-body">
@@ -750,7 +750,7 @@
 									<div class="media">
 										<div class="media-left">
 											<div class="avatar avatar-sm avatar-circle">
-												<img src="../assets/images/218.jpg" alt="">
+												<img src=" <?php echo base_url("assets"); ?>/assets/images/218.jpg" alt="">
 											</div>
 										</div>
 										<div class="media-body">
@@ -764,7 +764,7 @@
 									<div class="media">
 										<div class="media-left">
 											<div class="avatar avatar-sm avatar-circle">
-												<img src="../assets/images/219.jpg" alt="">
+												<img src=" <?php echo base_url("assets"); ?>/assets/images/219.jpg" alt="">
 											</div>
 										</div>
 										<div class="media-body">
@@ -778,7 +778,7 @@
 									<div class="media">
 										<div class="media-left">
 											<div class="avatar avatar-sm avatar-circle">
-												<img src="../assets/images/215.jpg" alt="">
+												<img src=" <?php echo base_url("assets"); ?>/assets/images/215.jpg" alt="">
 											</div>
 										</div>
 										<div class="media-body">
@@ -792,7 +792,7 @@
 									<div class="media">
 										<div class="media-left">
 											<div class="avatar avatar-sm avatar-circle">
-												<img src="../assets/images/221.jpg" alt="">
+												<img src=" <?php echo base_url("assets"); ?>/assets/images/221.jpg" alt="">
 											</div>
 										</div>
 										<div class="media-body">
@@ -816,7 +816,7 @@
 							<div class="streamline m-l-lg">
 								<div class="sl-item p-b-md">
 									<div class="sl-avatar avatar avatar-sm avatar-circle">
-										<img class="img-responsive" src="../assets/images/221.jpg" alt="avatar"/>
+										<img class="img-responsive" src=" <?php echo base_url("assets"); ?>/assets/images/221.jpg" alt="avatar"/>
 									</div><!-- .avatar -->
 									<div class="sl-content m-l-xl">
 										<h5 class="m-t-0"><a href="javascript:void(0)" class="m-r-xs theme-color">John Doe</a><small class="text-muted fz-sm">last month</small></h5>
@@ -826,7 +826,7 @@
 
 								<div class="sl-item p-b-md">
 									<div class="sl-avatar avatar avatar-sm avatar-circle">
-										<img class="img-responsive" src="../assets/images/214.jpg" alt="avatar"/>
+										<img class="img-responsive" src=" <?php echo base_url("assets"); ?>/assets/images/214.jpg" alt="avatar"/>
 									</div><!-- .avatar -->
 									<div class="sl-content m-l-xl">
 										<h5 class="m-t-0"><a href="javascript:void(0)" class="m-r-xs theme-color">Jane Doe</a><small class="text-muted fz-sm">last month</small></h5>
@@ -836,7 +836,7 @@
 
 								<div class="sl-item p-b-md">
 									<div class="sl-avatar avatar avatar-sm avatar-circle">
-										<img class="img-responsive" src="../assets/images/217.jpg" alt="avatar"/>
+										<img class="img-responsive" src=" <?php echo base_url("assets"); ?>/assets/images/217.jpg" alt="avatar"/>
 									</div><!-- .avatar -->
 									<div class="sl-content m-l-xl">
 										<h5 class="m-t-0"><a href="javascript:void(0)" class="m-r-xs theme-color">Sally Mala</a><small class="text-muted fz-sm">last month</small></h5>
@@ -846,7 +846,7 @@
 
 								<div class="sl-item p-b-md">
 									<div class="sl-avatar avatar avatar-sm avatar-circle">
-										<img class="img-responsive" src="../assets/images/211.jpg" alt="avatar"/>
+										<img class="img-responsive" src=" <?php echo base_url("assets"); ?>/assets/images/211.jpg" alt="avatar"/>
 									</div><!-- .avatar -->
 									<div class="sl-content m-l-xl">
 										<h5 class="m-t-0"><a href="javascript:void(0)" class="m-r-xs theme-color">Sara Adams</a><small class="text-muted fz-sm">last month</small></h5>
@@ -855,7 +855,7 @@
 								</div><!-- .sl-item -->
 								<div class="sl-item p-b-md">
 									<div class="sl-avatar avatar avatar-sm avatar-circle">
-										<img class="img-responsive" src="../assets/images/214.jpg" alt="avatar"/>
+										<img class="img-responsive" src=" <?php echo base_url("assets"); ?>/assets/images/214.jpg" alt="avatar"/>
 									</div><!-- .avatar -->
 									<div class="sl-content m-l-xl">
 										<h5 class="m-t-0"><a href="javascript:void(0)" class="m-r-xs theme-color">Sandy Doe</a><small class="text-muted fz-sm">last month</small></h5>
@@ -1017,7 +1017,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/221.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/221.jpg" alt="">
 							<i class="status status-online"></i>
 						</div>
 					</div>
@@ -1032,7 +1032,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/205.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/205.jpg" alt="">
 							<i class="status status-online"></i>
 						</div>
 					</div>
@@ -1047,7 +1047,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/206.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/206.jpg" alt="">
 							<i class="status status-online"></i>
 						</div>
 					</div>
@@ -1062,7 +1062,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/207.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/207.jpg" alt="">
 							<i class="status status-away"></i>
 						</div>
 					</div>
@@ -1077,7 +1077,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/208.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/208.jpg" alt="">
 							<i class="status status-away"></i>
 						</div>
 					</div>
@@ -1092,7 +1092,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/209.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/209.jpg" alt="">
 							<i class="status status-away"></i>
 						</div>
 					</div>
@@ -1107,7 +1107,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/219.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/219.jpg" alt="">
 							<i class="status status-away"></i>
 						</div>
 					</div>
@@ -1122,7 +1122,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/210.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/210.jpg" alt="">
 							<i class="status status-offline"></i>
 						</div>
 					</div>
@@ -1137,7 +1137,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/211.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/211.jpg" alt="">
 							<i class="status status-offline"></i>
 						</div>
 					</div>
@@ -1152,7 +1152,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/212.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/212.jpg" alt="">
 							<i class="status status-offline"></i>
 						</div>
 					</div>
@@ -1167,7 +1167,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/207.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/207.jpg" alt="">
 							<i class="status status-offline"></i>
 						</div>
 					</div>
@@ -1182,7 +1182,7 @@
 				<div class="media">
 					<div class="media-left">
 						<div class="avatar avatar-xs avatar-circle">
-							<img src="../assets/images/211.jpg" alt="">
+							<img src=" <?php echo base_url("assets"); ?>/assets/images/211.jpg" alt="">
 							<i class="status status-offline"></i>
 						</div>
 					</div>
