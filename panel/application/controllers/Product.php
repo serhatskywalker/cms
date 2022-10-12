@@ -58,9 +58,16 @@ class Product extends CI_Controller {
 			echo "Kayıt işlemleri başlar...";
 		}
 		else {
-			echo validation_errors();
-//			echo "Birşeyler ters gitti";
+			$viewData = new stdClass();
+
+			$viewData->viewFolder = $this->viewFolder;
+			$viewData->subViewFolder = "add";
+			$viewData->form_error = true;
+
+			$this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index",$viewData);
+
 		}
+
 
 		//Başarılı ise
 				//Kayıt işlemi başlar
