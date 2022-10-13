@@ -17,15 +17,13 @@ class Product extends CI_Controller {
 		$viewData = new stdClass();
 
 
-//		tablodan verilerin getirilmesş
+//		tablodan verilerin getirilmesi
 		$items = $this->product_model->get_all();
 
 		/* View'e göndericelek değişkenlerin set edilmesi  */
 		$viewData->viewFolder = $this->viewFolder;
 		$viewData->subViewFolder = "list";
 		$viewData->items = $items;
-
-
 
 		$this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
 	}
@@ -89,6 +87,27 @@ class Product extends CI_Controller {
 				//Kayıt işlemi başlar
 		//Başarısız ise
 				//Hata ekranda gösterilir...
+	}
+
+	public function update_form($id){
+
+		$viewData = new stdClass();
+
+		// Tablodan verilerin getirilmesi
+		$item = $this->product_model->get(
+			array(
+				"id"  =>  $id
+			)
+		);
+
+
+
+		$viewData->viewFolder = $this->viewFolder;
+		$viewData->subViewFolder = "update";
+		$viewData->item = $item;
+
+		$this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index",$viewData);
+
 	}
 }
 

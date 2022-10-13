@@ -1,7 +1,9 @@
 <div class="row">
 	<div class="col-md-12">
 		<h4 class="m-b-lg">
-			Ürün Listesi
+			Yeni Ürün Ekle
+
+
 			<a href="<?php echo base_url("product/new_form"); ?>" class="btn btn-outline btn-primary btn-xs pull-right"><i class="fa fa-plus"></i>Yeni Ekle</a>
 		</h4>
 	</div><!-- END column -->
@@ -44,7 +46,7 @@
 						</td>
 						<td>
 							<a href="#" class="btn btn-sm btn-danger btn-outline"><i class="fa fa-trash"></i>Sil</a>
-							<a href="#" class="btn btn-sm btn-info btn-outline"><i class="fa fa-pencil-square-o"></i>Düzenle</a>
+							<a href="<?php echo	base_url("product/update_form/$item->id"); ?>" class="btn btn-sm btn-info btn-outline"><i class="fa fa-pencil-square-o"></i>Düzenle</a>
 						</td>
 					</tr>
 

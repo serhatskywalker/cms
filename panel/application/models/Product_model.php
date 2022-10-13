@@ -8,10 +8,15 @@ class Product_model extends  CI_Model {
 	{
 		parent:: __construct();
 	}
-//		tüm kayıtları getirecek metod
-	public function get_all() {
 
-		return $this->db->get($this->tableName)->result();
+	public function get($where = array()){
+		return $this->db->where($where)->get($this->tableName)->row();
+	}
+
+//		tüm kayıtları getirecek metod
+	public function get_all($where = array()) {
+
+		return $this->db->where($where)->get($this->tableName)->result();
 	}
 
 	public function add($data = array()) {
