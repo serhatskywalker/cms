@@ -181,5 +181,20 @@ class Product extends CI_Controller {
 			redirect(base_url("product"));
 		}
 	}
+
+	public function isActiveSetter($id){
+		if($id){
+		$isActive = ($this->input->post("data") === "true") ? 1 : 0;
+		$this->product_model->update(
+			array(
+			"id" 	=>  	$id
+			),
+			array(
+				"isActive" 	=>  $isActive
+			)
+		);
+		}
+	}
+
 }
 
