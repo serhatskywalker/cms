@@ -68,9 +68,9 @@ class Product extends CI_Controller {
 				)
 			);
 			if ($insert){
-				echo "kayıt islemi basarilidir";
+				redirect(base_url("product"));
 			}else{
-				echo "İslem başarısızdır";
+				redirect(base_url("product"));
 			}
 		}
 		else {
